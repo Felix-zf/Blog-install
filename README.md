@@ -1,0 +1,2 @@
+# Hexo-IS
+hexo install
