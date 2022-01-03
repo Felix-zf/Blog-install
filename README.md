@@ -37,7 +37,7 @@ hexo d           /*提交到GitHub*/
 - 上传
 ```
 /*进入博客目录的“.deploy_git.git”子目录,找到config文件。
-手动配置
+手动配置:
 [user]
 	email=3188221045@qq.com
 	name=Felix-zf               */
