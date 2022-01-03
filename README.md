@@ -13,8 +13,8 @@ git --version
 ## 打开Git软件，重新配置SSH
 - 链接账户邮箱
 ```
+git config --golbal user.email"3188221045@qq.com"
 git config --global user.name “Felix-zf”
-git config --golbal user.email"3188221045zf#"
 ```
 - 配置SSH,一般位于C盘用户.ssh(id_rsa.pub)
 ```
