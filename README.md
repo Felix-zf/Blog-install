@@ -31,6 +31,7 @@ npm install      /*安装项目依赖*/
 hexo g            /*生成并本地预览*/  
 hexo s            /*访问本地客户端*/  
 hexo d           /*提交到GitHub*/  
+git pull --rebase origin master     /*远程同步本地*/
 hexo cl && hexo g -d                /*清除上传指令*/
 ```
 
