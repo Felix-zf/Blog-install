@@ -18,8 +18,8 @@ ssh -T git@github.com  /*链接测试*/
 ```
 - 链接账户邮箱
 ```
-git config --golbal user.email"3188221045@qq.com"
 git config --global user.name “Felix-zf”
+git config --golbal user.email"3188221045@qq.com"
 ```
 
 
