@@ -24,6 +24,7 @@ git config --golbal user.email"3188221045@qq.com"
 
 
 ## 关联github项目
+- 配置
 ```
 git init    
 git remote add origin https://github.com/felix-zf/felix-zf.github.io.git    
@@ -32,8 +33,17 @@ npm install      /*安装项目依赖*/
 hexo g            /*生成并本地预览*/  
 hexo s            /*访问本地客户端*/  
 hexo d           /*提交到GitHub*/  
+```
+- 上传
+```
+进入我们博客目录的“.deploy_git.git”子目录,找到config文件。
+添加
+[user]
+	email=3188221045@qq.com
+	name=Felix-zf
 hexo cl && hexo g -d                /*清除上传指令*/
 ```
+
 
 - 图片示例
 
