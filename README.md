@@ -3,9 +3,10 @@ hexo install
 
 # 重新部署hexo
 ## 重新安装Node.js和Git
-本文章主要介绍了在重装系统或者更换电脑以后怎样更新自己的博客，经过自己的尝试可行，于是记录分享一下
-Node.js: ![1](https://nodejs.org/en)
-Git: ![2](https://git-scm.com/download/win)
+本文章主要介绍了在重装系统或者更换电脑以后怎样更新自己的博客，经过自己的尝试可行，于是记录分享一下  
+Node.js: https://nodejs.org/en    
+Git: https://git-scm.com/download/win
+
 - 测试命令(检测node安装)
 ```
 node -v
