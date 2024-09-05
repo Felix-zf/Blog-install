@@ -58,19 +58,20 @@ hexo cl && hexo g -d                /*清除上传指令*/
 ### serv00介绍
 Serv00 是一家波兰的免费VPS提供商，成立于2008年，致力于 Web 应用托管市场和 UNIX/Linux 服务器管理
 
-1.免费提供 3GB 的存储空间
-2.内存：512MB
-3.流量：不限流量 （可以搭建IP节点）
-4.支持PHP、MySQL等网站开发语言和数据库
-5.可以同时搭建100个网站
-6.可自定义开放端口
-7.支持SSH远程访问
-8.免费提供的二级域名，可以自定义绑定
-9.官方要求至少每隔3个月登入一次
+1. 免费提供 3GB 的存储空间
+2. 内存：512MB
+3. 流量：不限流量 （可以搭建IP节点）
+4. 支持PHP、MySQL等网站开发语言和数据库
+5. 可以同时搭建100个网站
+6. 可自定义开放端口
+7. 支持SSH远程访问
+8. 免费提供的二级域名，可以自定义绑定
+9. 官方要求至少每隔3个月登入一次
 
 ### 搭建教程
-1. 下载最新版的WordPress：https://wordpress.org ，把下载好的Wordpress压缩包上传到Fiel manager://domains/felix7200.serv00.net/public_html,解压到public_html中。
-2. 新建数据库MySQL
+1. 创建账号，进入后台面板管理
+2. 下载最新版的WordPress：https://wordpress.org ，把下载好的Wordpress压缩包上传到Fiel manager://domains/felix7200.serv00.net/public_html,解压到public_html中。
+3. 新建数据库MySQL
 数据库信息：
 ```
 Database name: felix7200gt
@@ -78,7 +79,7 @@ User name: felix7200gt
 Password: Felix7200gt.
 
 ```
-3. 进入自己domain,搭建wordpress博客
+4. 进入自己domain,搭建wordpress博客
 后台面板管理
 ```
 Name: admin
