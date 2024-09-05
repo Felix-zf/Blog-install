@@ -1,8 +1,9 @@
 # 博客搭建教学
 
 
-# 重新部署hexo
-## 重新安装Node.js和Git
+## hexo重新部署
+
+### 首选重新安装Node.js和Git
 本文章主要介绍了在重装系统或者更换电脑以后怎样更新自己的博客，经过自己的尝试可行，于是记录分享一下  
 Node.js: https://nodejs.org/en    
 Git: https://git-scm.com/download/win
@@ -13,7 +14,7 @@ node -v
 npm -v
 git --version
 ```
-## 打开Git软件，重新配置SSH
+### 打开Git软件，重新配置SSH
 - 配置SSH,一般位于C盘用户.ssh(id_rsa.pub)
 ```
 ssh-keygen -t rsa -C"3188221045@qq.com"
@@ -26,7 +27,7 @@ git config --golbal user.email"3188221045@qq.com"
 ```
 
 
-## 关联github项目
+### 关联github项目
 - 配置
 ```
 git init    
@@ -52,7 +53,8 @@ hexo cl && hexo g -d                /*清除上传指令*/
 
 ![](https://github.com/Felix-zf/Picture-Store/blob/master/img/zy.png)
 
-# 利用serv00搭建wordpress博客
+-------
+## serv00搭建wordpress博客
 1. 下载最新版的WordPress：https://wordpress.org ，把下载好的Wordpress压缩包上传到Fiel manager://domains/felix7200.serv00.net/public_html,解压到public_html中。
 2. 新建数据库MySQL
 数据库信息：
