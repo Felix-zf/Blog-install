@@ -1,5 +1,5 @@
-# Hexo-IS
-hexo install
+# 博客搭建教学
+
 
 # 重新部署hexo
 ## 重新安装Node.js和Git
@@ -52,4 +52,19 @@ hexo cl && hexo g -d                /*清除上传指令*/
 
 ![](https://github.com/Felix-zf/Picture-Store/blob/master/img/zy.png)
 
+# 利用serv00搭建wordpress博客
+1. 下载最新版的WordPress：https://wordpress.org ，把下载好的Wordpress压缩包上传到Fiel manager://domains/felix7200.serv00.net/public_html,解压到public_html中。
+2. 新建数据库MySQL
+数据库信息：
+```
+Database name: felix7200gt
+User name: felix7200gt
+Password: Felix7200gt.
 
+```
+3. 进入自己domain,搭建wordpress博客
+后台面板管理
+```
+Name: admin
+Password: eYKnTG4u!Z@KP!zyEJ
+```
