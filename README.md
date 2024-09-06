@@ -124,7 +124,8 @@ cd /var/discourse
 ```
 
 ## 鸣谢
-- 零度博客：https://www.freedidi.com/11744.html
+- 零度论坛搭建：https://www.freedidi.com/11744.html
+- 零度VPS服务器：https://www.freedidi.com/12795.html
 - 零度开源论坛搭建： https://www.youtube.com/watch?v=UfFp_akjF8E
 - 零度网站搭建视频：https://www.youtube.com/watch?v=vILw9l3c_K4
 - 开源论坛discourse：https://github.com/discourse/discourse
