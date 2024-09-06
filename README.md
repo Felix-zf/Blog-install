@@ -85,6 +85,11 @@ Password: Felix7200gt.
 Name: admin
 Password: eYKnTG4u!Z@KP!zyEJ
 ```
+Tips: 
+1. 安装主题可以选择Astra
+2. 新建页面（一级菜单栏）
+3. 菜单栏里设置自定义链接（二级菜单）
+4. 撰写文章，新建分类，链接到二级菜单
 
 ## 搭建Discourse论坛社区
 1. 第一步，准备好一台VPS，内存最好别低于 1G 
