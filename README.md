@@ -85,3 +85,50 @@ Password: Felix7200gt.
 Name: admin
 Password: eYKnTG4u!Z@KP!zyEJ
 ```
+
+## 搭建Discourse论坛社区
+1. 第一步，准备好一台VPS，内存最好别低于 1G 
+2. 准备好一个域名，收费免费的都可以，比如我使用子域名：bbs.freedidi.com ，将其解析到VPS的ip地址上
+3. 连接VPS，进入终端进行安装，安装命Docker
+```
+sudo apt install docker.io
+sudo apt install git
+```
+4. 安装 Discourse
+```
+sudo -s
+git clone https://github.com/discourse/discourse_docker.git /var/discourse
+cd /var/discourse
+chmod 700 containers
+```
+5. 执行安装
+```
+./discourse-setup
+```
+6. 安装过程中需要填写的信息
+```
+Hostname for your Discourse? [discourse.example.com]: 
+Email address for admin account(s)? [me@example.com,you@example.com]: 
+SMTP server address? [smtp.example.com]: 
+SMTP port? [587]: 
+SMTP user name? [user@example.com]: 
+SMTP password? [pa$$word]: 
+Let's Encrypt account email? (ENTER to skip) [me@example.com]: 
+Optional Maxmind License key () [xxxxxxxxxxxxxxxx]:
+```
+7. 如果需要修改配置,只需进入并修改该文件： var/discourse/containers/app.yml,修改后进行重启容器即可：
+```
+cd /var/discourse
+./launcher destroy app
+./launcher start app
+```
+
+## 鸣谢
+- 零度博客：https://www.freedidi.com/11744.html
+- 零度开源论坛搭建： https://www.youtube.com/watch?v=UfFp_akjF8E
+- 零度网站搭建视频：https://www.youtube.com/watch?v=vILw9l3c_K4
+- 开源论坛discourse：https://github.com/discourse/discourse
+- 开源网站建设工具：https://github.com/WordPress/WordPress
+- 开源问答社区answer: https://github.com/answerdev/answer
+- 开源面板1panel：https://github.com/1Panel-dev/1Panel
+
