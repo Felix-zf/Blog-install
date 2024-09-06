@@ -79,7 +79,7 @@ User name: felix7200gt
 Password: Felix7200gt.
 
 ```
-4. 进入自己domain,搭建wordpress博客
+4. 进入自己后台（domain/wp-admin）,搭建wordpress博客
 后台面板管理
 ```
 Name: admin
