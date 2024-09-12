@@ -42,9 +42,14 @@ git config --golbal user.email"3188221045@qq.com"
 ```
 
 ### 安装 hexo
-在 cmd 下输入下面指令安装 hexo
+- 在 cmd 下输入下面指令安装 hexo
 ```
 npm install hexo-cli -g
+```
+- 如果网络被阉，可以使用阿里云镜像源进行安装
+```
+npm install -g cnpm --registry=https://registry.npmmirror.com
+cnpm install -g hexo-cli
 ```
 
 ### 进入 D:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块
