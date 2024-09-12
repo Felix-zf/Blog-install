@@ -173,6 +173,6 @@ cd /var/discourse
 - 开源问答社区answer: https://github.com/answerdev/answer
 - 开源面板1panel：https://github.com/1Panel-dev/1Panel
 - Hexo开源项目：https://github.com/hexojs/hexo
-- Hexo博客搭建：https://blog.laogou717.com/2024/07/31/AI%20era/Hexo/
+- Hexo博客搭建：https://blog.laogou717.com/2024/07/31/AI%20era/Hexo
 - Hexo博客重搭建：https://www.cnblogs.com/study-everyday/p/8902136.html
 
