@@ -61,7 +61,10 @@ npm install hexo-deployer-git --save  // 文章部署到 git 的模块
 npm install hexo-generator-feed --save  // 建立 RSS 订阅
 npm install hexo-generator-sitemap --save // 建立站点地图
 ```
-Tips: 备用阿里云镜像源cnpm
+Tips: 备用阿里云镜像源cnpm,卡死了可以直接按下 CTRL+C 终止
+```
+git config --global http.sslVerify false  // 出现SSL错误,可绕过证书验证（仅用于开发环境）
+```
 
 ### 测试
 这时候使用 hexo s 基本可以看到你新添加的文章了。
