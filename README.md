@@ -29,7 +29,6 @@ _config.yml
 - 配置SSH,一般位于C盘用户.ssh(id_rsa.pub)
 ```
 ssh-keygen -t rsa -C"3188221045@qq.com"
-ssh -T git@github.com  /*链接测试*/
 ```
 - 打开GitHub账户,创建新的SSH链接
 - 验证链接账户邮箱是否成功
