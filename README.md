@@ -2,44 +2,73 @@
 
 
 ## hexo重新部署
-
-### 首选重新安装Node.js和Git
+### 安装Node.js和Git必要软件
 本文章主要介绍了在重装系统或者更换电脑以后怎样更新自己的博客，经过自己的尝试可行，于是记录分享一下  
 Node.js: https://nodejs.org/en    
 Git: https://git-scm.com/download/win
-
 - 测试命令(检测node安装)
 ```
 node -v
 npm -v
 git --version
 ```
-### 打开Git软件，重新配置SSH
+
+### 源文件拷贝
+将你原来电脑上个人博客目录下必要文件拷到你的新电脑上（比如F:/Blog目录下），注意无需拷全部，只拷如下几个目录：
+```
+_config.yml
+ package.json
+ scaffolds/
+ source/
+ themes/
+```
+- 图片示例
+![](https://github.com/Felix-zf/Picture-Store/blob/master/img/zy.png)
+
+### 打开Github，重新配置新的密钥
 - 配置SSH,一般位于C盘用户.ssh(id_rsa.pub)
 ```
 ssh-keygen -t rsa -C"3188221045@qq.com"
 ssh -T git@github.com  /*链接测试*/
 ```
-- 链接账户邮箱
+- 打开GitHub账户,创建新的SSH链接
+- 验证链接账户邮箱是否成功
+```
+ssh -T git@github.com
+```
 ```
 git config --global user.name “Felix-zf”
 git config --golbal user.email"3188221045@qq.com"
 ```
 
+### 安装 hexo
+在 cmd 下输入下面指令安装 hexo
+```
+npm install hexo-cli -g
+```
 
-### 关联github项目
+### 进入 F:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块
 - 配置
 ```
-git init    
-git remote add origin https://github.com/felix-zf/felix-zf.github.io.git    
-npm install –g hexo     /*安装Hexo*/  
-npm install      /*安装项目依赖*/
+npm install
+npm install hexo-deployer-git --save  // 文章部署到 git 的模块
+（下面为选择安装）
+npm install hexo-generator-feed --save  // 建立 RSS 订阅
+npm install hexo-generator-sitemap --save // 建立站点地图
+```
+### 测试
+这时候使用 hexo s 基本可以看到你新添加的文章了。
+
+### 部署发布文章
+```
 hexo clean        /*清除缓存 网页正常情况下可以忽略此条命令*/  
 hexo g            /*生成静态网页*/  
-hexo s            /*访问本地客户端*/  
+hexo s            /*本地部署*/  
 hexo d           /*开始部署*/  
 ```
-- 上传
+
+
+Tips: ssh的手动配置
 ```
 /*进入博客目录的“.deploy_git.git”子目录,找到config文件。
 手动配置:
@@ -48,11 +77,6 @@ hexo d           /*开始部署*/
 	name=Felix-zf               */
 hexo cl && hexo g -d                /*清除上传指令*/
 ```
-
-
-- 图片示例
-
-![](https://github.com/Felix-zf/Picture-Store/blob/master/img/zy.png)
 
 -------
 ## serv00搭建wordpress博客
@@ -139,4 +163,5 @@ cd /var/discourse
 - 开源网站建设工具：https://github.com/WordPress/WordPress
 - 开源问答社区answer: https://github.com/answerdev/answer
 - 开源面板1panel：https://github.com/1Panel-dev/1Panel
+- Hexo博客重搭建：https://www.cnblogs.com/study-everyday/p/8902136.html
 
