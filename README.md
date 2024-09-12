@@ -46,7 +46,7 @@ git config --golbal user.email"3188221045@qq.com"
 npm install hexo-cli -g
 ```
 
-### 进入 F:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块
+### 进入 D:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块
 - 配置
 ```
 npm install
@@ -59,11 +59,13 @@ npm install hexo-generator-sitemap --save // 建立站点地图
 这时候使用 hexo s 基本可以看到你新添加的文章了。
 
 ### 部署发布文章
+在 D:\hexo 文件夹下右键打开 Git Bash Here，输入以下命令
 ```
+hexo init         /*进行初始化*/
 hexo clean        /*清除缓存 网页正常情况下可以忽略此条命令*/  
 hexo g            /*生成静态网页*/  
 hexo s            /*本地部署*/  
-hexo d           /*开始部署*/  
+hexo d            /*开始部署*/  
 ```
 
 
