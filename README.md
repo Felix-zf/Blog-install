@@ -35,6 +35,7 @@ ssh-keygen -t rsa -C"3188221045@qq.com"
 ```
 ssh -T git@github.com
 ```
+- 此外您还需要如下配置:
 ```
 git config --global user.name “Felix-zf”
 git config --golbal user.email"3188221045@qq.com"
