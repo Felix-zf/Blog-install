@@ -33,10 +33,11 @@ git config --golbal user.email"3188221045@qq.com"
 git init    
 git remote add origin https://github.com/felix-zf/felix-zf.github.io.git    
 npm install –g hexo     /*安装Hexo*/  
-npm install      /*安装项目依赖*/  
-hexo g            /*生成并本地预览*/  
+npm install      /*安装项目依赖*/
+hexo clean        /*清除缓存 网页正常情况下可以忽略此条命令*/  
+hexo g            /*生成静态网页*/  
 hexo s            /*访问本地客户端*/  
-hexo d           /*提交到GitHub*/  
+hexo d           /*开始部署*/  
 ```
 - 上传
 ```
