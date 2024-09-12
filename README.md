@@ -55,7 +55,7 @@ cnpm install -g hexo-cli
 ### 进入 D:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块
 - 配置
 ```
-npm install
+npm install  // 安装依赖
 npm install hexo-deployer-git --save  // 文章部署到 git 的模块
 （下面为选择安装）
 npm install hexo-generator-feed --save  // 建立 RSS 订阅
