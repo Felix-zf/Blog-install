@@ -52,7 +52,7 @@ npm install -g cnpm --registry=https://registry.npmmirror.com
 cnpm install -g hexo-cli
 ```
 
-### 进入 D:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块
+### 进入 D:/Blog 目录（你拷贝到新电脑的目录），Git输入下面指令安装相关模块
 - 配置
 ```
 npm install  // 安装依赖
