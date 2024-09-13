@@ -74,6 +74,7 @@ npm install  // 安装依赖
 npm install hexo-deployer-git --save  // 文章部署到 git 的模块
 （下面为选择安装）
 npm install hexo-generator-feed --save  // 建立 RSS 订阅
+npm install hexo-generator-search --save  // 建立文章搜索
 npm install hexo-generator-sitemap --save // 建立站点地图
 ```
 Tips: 备用阿里云镜像源cnpm,卡死了可以直接按下 CTRL+C 终止
