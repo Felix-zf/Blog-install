@@ -113,7 +113,7 @@ theme: oranges
 ```
 Copy the _config.yml file in the theme folder to the blog root directory and rename it to _config.oranges.yml. Subsequent theme modification operations are performed in _config.oranges.yml
 
-# 网页部署
+### 网页部署
 - Zeabur或者Vercel部署
 - Github默认的pages页面部署
 
