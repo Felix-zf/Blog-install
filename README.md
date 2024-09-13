@@ -86,7 +86,7 @@ git config --global http.sslVerify false  // 出现SSL错误,可绕过证书验�
 这时候使用 hexo s 基本可以看到你新添加的文章了。
 
 ### 部署发布文章
-在 D:\blog 文件夹下右键打开 Git Bash Here，输入以下命令
+- 在 D:\blog 文件夹下右键打开 Git Bash Here，输入以下命令
 ```
 hexo clean        /*清除缓存 网页正常情况下可以忽略此条命令*/  
 hexo g            /*生成静态网页*/  
@@ -95,6 +95,10 @@ hexo s            /*本地部署*/
 ```
 npm install hexo-deployer-git --save    /*安装hexo部署插件*/
 hexo d            /*开始部署*/  
+```
+- 新建deploy.bat文件，快速部署
+```
+hexo clean && hexo g && hexo d
 ```
 
 ### 更换主题
