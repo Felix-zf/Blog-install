@@ -128,8 +128,8 @@ Copy the _config.yml file in the theme folder to the blog root directory and ren
 hexo new "My New Post"
 ```
 - vscode如何预览markdown文件
-1. 编写markdown文件时，按 command+k ，松开后紧着按 v 键，即可在当前窗口右侧打开实时预览
-2. 按 command+shift+p 调出命令框，输入markdown，选择打开预览，即可新窗口打开实时预览
+1. 编写markdown文件时，按" command+k " ，松开后紧着按" v "键，即可在当前窗口右侧打开实时预览
+2. 按" command+shift+p "调出命令框，输入" markdown "，选择打开预览，即可新窗口打开实时预览
 
 -------
 ## serv00搭建wordpress博客
