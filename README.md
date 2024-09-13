@@ -13,6 +13,31 @@ npm -v
 git --version
 ```
 
+### 打开Github，重新配置新的密钥
+- 配置SSH,一般位于C盘用户.ssh(id_rsa.pub)
+```
+ssh-keygen -t rsa -C"3188221045@qq.com"
+```
+- 打开GitHub账户,创建新的SSH链接
+- 验证链接账户邮箱是否成功
+```
+ssh -T git@github.com
+```
+- 此外您还需要如下配置:
+```
+git config --global user.name “Felix-zf”
+git config --golbal user.email"3188221045@qq.com"
+```
+Tips: ssh的手动配置
+```
+/*进入博客目录的“.deploy_git.git”子目录,找到config文件。
+手动配置:
+[user]
+	email=3188221045@qq.com
+	name=Felix-zf               */
+hexo cl && hexo g -d                /*清除上传指令*/
+```
+
 ### 安装 hexo 命令
 - 在 cmd 下输入下面指令安装 hexo
 ```
@@ -66,31 +91,6 @@ hexo clean        /*清除缓存 网页正常情况下可以忽略此条命令*/
 hexo g            /*生成静态网页*/  
 hexo s            /*本地部署*/  
 hexo d            /*开始部署*/  
-```
-
-### 打开Github，重新配置新的密钥
-- 配置SSH,一般位于C盘用户.ssh(id_rsa.pub)
-```
-ssh-keygen -t rsa -C"3188221045@qq.com"
-```
-- 打开GitHub账户,创建新的SSH链接
-- 验证链接账户邮箱是否成功
-```
-ssh -T git@github.com
-```
-- 此外您还需要如下配置:
-```
-git config --global user.name “Felix-zf”
-git config --golbal user.email"3188221045@qq.com"
-```
-Tips: ssh的手动配置
-```
-/*进入博客目录的“.deploy_git.git”子目录,找到config文件。
-手动配置:
-[user]
-	email=3188221045@qq.com
-	name=Felix-zf               */
-hexo cl && hexo g -d                /*清除上传指令*/
 ```
 
 ### 更换主题
