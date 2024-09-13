@@ -2,7 +2,7 @@
 
 
 ## hexo重新部署
-### 安装Node.js和Git必要软件
+### 安装 Node.js 和 Git 必要软件
 本文章主要介绍了在重装系统或者更换电脑以后怎样更新自己的博客，经过自己的尝试可行，于是记录分享一下  
 Node.js: https://nodejs.org/en    
 Git: https://git-scm.com/download/win
@@ -13,7 +13,7 @@ npm -v
 git --version
 ```
 
-### 安装 hexo
+### 安装 hexo 命令
 - 在 cmd 下输入下面指令安装 hexo
 ```
 npm install hexo-cli -g
@@ -24,7 +24,7 @@ npm install -g cnpm --registry=https://registry.npmmirror.com
 cnpm install -g hexo-cli
 ```
 
-### 初始化 hexo
+### 初始化 hexo 框架
 - 在 D:\blog 文件夹下,右键打开 Git Bash Here，输入以下命令
 ```
 hexo init    /*进行初始化*/
