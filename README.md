@@ -94,6 +94,7 @@ hexo cl && hexo g -d                /*清除上传指令*/
 ```
 
 ### 更换主题
+Oranges：https://github.com/zchengsite/hexo-theme-oranges
 - 创建git目录
 ```
 git init
