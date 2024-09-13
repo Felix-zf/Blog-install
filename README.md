@@ -90,6 +90,9 @@ git config --global http.sslVerify false  // 出现SSL错误,可绕过证书验�
 hexo clean        /*清除缓存 网页正常情况下可以忽略此条命令*/  
 hexo g            /*生成静态网页*/  
 hexo s            /*本地部署*/  
+```
+```
+npm install hexo-deployer-git --save    /*安装hexo部署插件*/
 hexo d            /*开始部署*/  
 ```
 
