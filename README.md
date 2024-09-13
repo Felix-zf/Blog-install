@@ -25,8 +25,9 @@ cnpm install -g hexo-cli
 ```
 
 ### 初始化 hexo
+- 在 D:\blog 文件夹下,右键打开 Git Bash Here，输入以下命令
 ```
-hexo init blog    /*进行初始化*/
+hexo init    /*进行初始化*/
 ```
 Tips:本步骤为初始搭建hexo框架，如已搭建使用源文件
 
@@ -42,8 +43,8 @@ _config.yml
 - 图片示例
 ![](https://github.com/Felix-zf/Picture-Store/blob/master/img/zy.png)
 
-### 进入 D:/Blog 目录（你拷贝到新电脑的目录），Git输入下面指令安装相关模块
-- 配置
+### 安装依赖
+在 D:\blog 文件夹下右键打开 Git Bash Here，输入以下命令
 ```
 npm install  // 安装依赖
 npm install hexo-deployer-git --save  // 文章部署到 git 的模块
