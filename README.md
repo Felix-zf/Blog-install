@@ -93,6 +93,23 @@ Tips: ssh的手动配置
 hexo cl && hexo g -d                /*清除上传指令*/
 ```
 
+### 更换主题
+- 创建git目录
+```
+git init
+```
+- Oranges:
+```
+git submodule add https://github.com/zchengsite/hexo-theme-oranges.git themes/oranges
+```
+To update the theme in the future, just execute the "git pull" command in the theme root directory.
+- 应用
+```
+theme: oranges
+```
+Copy the _config.yml file in the theme folder to the blog root directory and rename it to _config.oranges.yml. Subsequent theme modification operations are performed in _config.oranges.yml
+
+
 -------
 ## serv00搭建wordpress博客
 ### serv00介绍
