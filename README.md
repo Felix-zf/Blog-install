@@ -13,34 +13,6 @@ npm -v
 git --version
 ```
 
-### 源文件拷贝
-将你原来电脑上个人博客目录下必要文件拷到你的新电脑上（比如F:/Blog目录下），注意无需拷全部，只拷如下几个目录：
-```
-_config.yml
- package.json
- scaffolds/
- source/
- themes/
-```
-- 图片示例
-![](https://github.com/Felix-zf/Picture-Store/blob/master/img/zy.png)
-
-### 打开Github，重新配置新的密钥
-- 配置SSH,一般位于C盘用户.ssh(id_rsa.pub)
-```
-ssh-keygen -t rsa -C"3188221045@qq.com"
-```
-- 打开GitHub账户,创建新的SSH链接
-- 验证链接账户邮箱是否成功
-```
-ssh -T git@github.com
-```
-- 此外您还需要如下配置:
-```
-git config --global user.name “Felix-zf”
-git config --golbal user.email"3188221045@qq.com"
-```
-
 ### 安装 hexo
 - 在 cmd 下输入下面指令安装 hexo
 ```
@@ -57,6 +29,18 @@ cnpm install -g hexo-cli
 hexo init blog    /*进行初始化*/
 ```
 Tips:本步骤为初始搭建hexo框架，如已搭建使用源文件
+
+### 源文件拷贝（重新搭建）
+将你原来电脑上个人博客目录下必要文件拷到你的新电脑上（比如F:/Blog目录下），注意无需拷全部，只拷如下几个目录：
+```
+_config.yml
+ package.json
+ scaffolds/
+ source/
+ themes/
+```
+- 图片示例
+![](https://github.com/Felix-zf/Picture-Store/blob/master/img/zy.png)
 
 ### 进入 D:/Blog 目录（你拷贝到新电脑的目录），Git输入下面指令安装相关模块
 - 配置
@@ -84,7 +68,21 @@ hexo s            /*本地部署*/
 hexo d            /*开始部署*/  
 ```
 
-
+### 打开Github，重新配置新的密钥
+- 配置SSH,一般位于C盘用户.ssh(id_rsa.pub)
+```
+ssh-keygen -t rsa -C"3188221045@qq.com"
+```
+- 打开GitHub账户,创建新的SSH链接
+- 验证链接账户邮箱是否成功
+```
+ssh -T git@github.com
+```
+- 此外您还需要如下配置:
+```
+git config --global user.name “Felix-zf”
+git config --golbal user.email"3188221045@qq.com"
+```
 Tips: ssh的手动配置
 ```
 /*进入博客目录的“.deploy_git.git”子目录,找到config文件。
