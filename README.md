@@ -72,7 +72,7 @@ git config --global http.sslVerify false  // 出现SSL错误,可绕过证书验�
 ### 部署发布文章
 在 D:\hexo 文件夹下右键打开 Git Bash Here，输入以下命令
 ```
-hexo init         /*进行初始化*/
+hexo init blog    /*进行初始化*/
 hexo clean        /*清除缓存 网页正常情况下可以忽略此条命令*/  
 hexo g            /*生成静态网页*/  
 hexo s            /*本地部署*/  
