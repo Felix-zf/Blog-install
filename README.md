@@ -39,7 +39,7 @@ _config.yml
  source/
  themes/
 ```
-- 图片示例
+图片示例
 ![](https://github.com/Felix-zf/Picture-Store/blob/master/img/zy.png)
 
 ### 安装依赖
