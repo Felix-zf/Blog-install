@@ -52,6 +52,12 @@ npm install -g cnpm --registry=https://registry.npmmirror.com
 cnpm install -g hexo-cli
 ```
 
+### 初始化 hexo
+```
+hexo init blog    /*进行初始化*/
+```
+Tips:本步骤为初始搭建hexo框架，如已搭建使用源文件
+
 ### 进入 D:/Blog 目录（你拷贝到新电脑的目录），Git输入下面指令安装相关模块
 - 配置
 ```
@@ -70,9 +76,8 @@ git config --global http.sslVerify false  // 出现SSL错误,可绕过证书验�
 这时候使用 hexo s 基本可以看到你新添加的文章了。
 
 ### 部署发布文章
-在 D:\hexo 文件夹下右键打开 Git Bash Here，输入以下命令
+在 D:\blog 文件夹下右键打开 Git Bash Here，输入以下命令
 ```
-hexo init blog    /*进行初始化*/
 hexo clean        /*清除缓存 网页正常情况下可以忽略此条命令*/  
 hexo g            /*生成静态网页*/  
 hexo s            /*本地部署*/  
