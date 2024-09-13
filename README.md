@@ -118,6 +118,12 @@ Copy the _config.yml file in the theme folder to the blog root directory and ren
 - Zeabur或者Vercel部署
 - Github默认的pages页面部署
 
+### 撰写文章
+- Create a new post
+```
+hexo new "My New Post"
+```
+
 -------
 ## serv00搭建wordpress博客
 ### serv00介绍
