@@ -71,6 +71,7 @@ _config.yml
 在 D:\blog 文件夹下右键打开 Git Bash Here，输入以下命令
 ```
 npm install  // 安装依赖
+npm update  // 更新依赖
 npm install hexo-deployer-git --save  // 文章部署到 git 的模块
 （下面为选择安装）
 npm install hexo-generator-feed --save  // 建立 RSS 订阅
