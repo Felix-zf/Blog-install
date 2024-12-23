@@ -16,7 +16,7 @@ git --version
 ### 打开Github，重新配置新的密钥
 - 配置SSH,一般位于C盘用户.ssh(id_rsa.pub)
 ```
-ssh-keygen -t rsa -C"3188221045@qq.com"
+ssh-keygen -t rsa -C"zqmnyuhi@gmail.com"
 ```
 - 打开GitHub账户,创建新的SSH链接
 - 验证链接账户邮箱是否成功
@@ -26,7 +26,7 @@ ssh -T git@github.com
 - 此外您还需要如下配置:
 ```
 git config --global user.name “Felix-zf”
-git config --golbal user.email"3188221045@qq.com"
+git config --golbal user.email"zqmnyuhi@gmail.com"
 ```
 Tips: ssh的手动配置
 ```
