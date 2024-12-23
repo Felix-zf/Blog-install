@@ -14,7 +14,7 @@ git --version
 ```
 
 ### 打开Github，重新配置新的密钥
-- 配置SSH,一般位于C盘用户.ssh(id_rsa.pub)
+- 配置SSH,一般位于C:\Users\user_name.ssh(id_rsa.pub)
 ```
 ssh-keygen -t rsa -C"zqmnyuhi@gmail.com"
 ```
