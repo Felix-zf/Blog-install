@@ -149,13 +149,13 @@ Serv00 是一家波兰的免费VPS提供商，成立于2008年，致力于 Web �
 
 ### 搭建教程
 1. 创建账号，进入后台面板管理
-2. 下载最新版的WordPress：https://wordpress.org ，把下载好的Wordpress压缩包上传到Fiel manager://domains/felix7200.serv00.net/public_html,解压到public_html中。
+2. 下载最新版的WordPress：https://wordpress.org ，把下载好的Wordpress压缩包上传到Fiel manager://domains/xxx.serv00.net/public_html,解压到public_html中。
 3. 新建数据库MySQL
 数据库信息：
 ```
-Database name: felix7200gt
-User name: felix7200gt
-Password: Felix7200gt.
+Database name: xxxxx
+User name: xxx
+Password: _
 
 ```
 4. 进入自己后台（domain/wp-admin）,搭建wordpress博客
